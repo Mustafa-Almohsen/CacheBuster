@@ -24,8 +24,11 @@ CacheBuster is a Python tool to test for unauthenticated cache purge and cache p
 ---
 
 ⚡ Usage
-python3 cachebuster.py -u https://example.com
-python3 cachebuster.py -l domains.txt
+
+python3 cachebuster.py -u https://example.com 
+
+python3 cachebuster.py -l domains.txt                                                                                                                                                                        
+
 
 🛠 Requirements
 Python 3.8+
@@ -49,8 +52,11 @@ usage: CacheBuster.py [-h] [-d DOMAIN] [-l LIST] [--threads THREADS]
 What it does: Tests a single target domain/URL.
 
 ✅Examples: 
-python3 CacheBuster.py -d example.com
+
+python3 CacheBuster.py -d example.com     
+
 python3 CacheBuster.py -d https://example.com
+
 - Use case: Quick test against one target.
 
  🔹 -l LIST, --list LIST
